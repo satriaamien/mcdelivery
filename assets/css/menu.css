@@ -1,0 +1,95 @@
+a, a:focus, a:hover {
+    text-decoration: none;
+}
+
+.sidebar {
+    width: 16.6666666667%;
+    padding-right: 5px;
+    font-family: 'Oswald', sans-serif !important;
+    float: left;
+}
+
+.food-menu {
+    background-color: #ffc423;
+    font-size: 18px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    border-radius: 8px;
+}
+
+.food-menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.food-menu .primary-menu-item-target, .food-menu .secondary-menu-item-target {
+    padding: 10px 15px;
+    display: block;
+    color : #a25716;
+}
+
+.food-menu .secondary-menu-item.selected span, .food-menu .secondary-menu-item:focus span, .food-menu .secondary-menu-item:hover span {
+    color: #e71b23;
+}
+
+.food-menu .secondary-menu-item.selected i, .food-menu .secondary-menu-item:focus i, .food-menu .secondary-menu-item:hover i {
+    color: #fff;
+}
+
+.fa-circle{
+    font-size: 8px;
+}
+
+.active {
+    color: yellow;
+}
+
+/*end sidebar*/
+
+.panel-product {
+    margin-bottom: 20px;
+    border-color: #ddd;
+    font-family: "Flama Condensed Medium",sans-serif;
+}
+.panel-default {
+    border-color: #ddd;
+    margin : 20px;
+    float: left;
+    border-radius: 8px;
+}
+
+.pull-right{
+    width: 55%;
+}
+.pull-end{
+    width: 27%;
+    margin-left: -13px;
+    margin-top: 20px;
+    border-radius: 50%;
+}
+
+.panel {
+    margin-bottom: 20px;
+    background-color: #fff;
+    border: 1px solid transparent;
+    border-radius: 2px;
+}
+
+.panel-product .product-cost {
+    color: #44900c;
+    white-space: nowrap;
+}
+/*.panel-body{
+    position: relative;
+}*/
+
+/*.btn-yellow {
+    color: #d21920!important;
+    border-color: #d21920;
+    background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiP…dpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==);
+    background-image: -webkit-gradient(linear,50% 0,50% 100%,color-stop(0,#ffce47),color-stop(100%,#feba00));
+    background-image: -moz-linear-gradient(#ffce47,#feba00);
+    background-image: -webkit-linear-gradient(#ffce47,#feba00);
+    background-image: linear-gradient(#ffce47,#feba00);
+}*/

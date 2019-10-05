@@ -1,0 +1,117 @@
+
+.tbody {
+  margin-top: 10px;
+  width: 100%;
+}
+
+.carousel-item img {
+  border-radius: 6px;
+}
+
+.carousel-indicators li {
+  width: 15px;
+  height: 15px;
+  border-radius: 100%;
+  opacity: 100%;
+}
+.slide{
+  margin-bottom: 12px;
+  position: relative;
+}
+.panel-home {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  width: 300px;
+  background-color: rgba(255, 255, 255, .7);
+  font-family: 'Oswald', sans-serif !important;
+}
+
+.panel-heading {
+  text-align: center;
+  color: #3D3D3D;
+  font-weight: 500;
+  border-bottom: 0;
+  padding-bottom: 0;
+}
+
+.nav-tabs {
+  border-bottom: none;
+}
+
+.nav-tabs>li {
+  text-align: center;
+  float: left;
+  width: 50%;
+}
+
+.nav-tabs>li+li {
+  border-left: 1px solid #ccc;
+}
+
+.nav-tabs li {
+  border: none;
+}
+
+/*.nav-tabs>li+li:before{
+  content: '';
+  border-left:1px solid #ccc;
+  position: absolute;
+  margin-left: -20px;
+}*/
+.panel-body {
+  position: relative;
+  padding: 15px;
+  border: none;
+}
+
+.nav-tabs>li>a {
+  text-decoration: none;
+}
+
+.nav-tabs-login-fragment {
+  margin-bottom: 10px;
+}
+
+.nav-tabs-login-fragment a {
+  color: #3d3d3d;
+}
+
+.panel-body {
+  padding: 15px;
+}
+
+.list-group-item input[type=text], .list-group-item input[type=password] {
+  width: 100%;
+  border: none;
+  outline: none;
+  margin: 0;
+}
+
+.promotion img {
+  width: 355px;
+  height: 200px;
+  border-radius: 6px;
+}
+.promotions{
+  padding-bottom: 30px;
+  border-bottom :1px solid grey ;
+}
+section{
+  margin:0 0 20px;
+}
+.home-section .section-title{
+  margin-top: 0;
+}
+h1{
+  font-size: 36px;
+  font-size: 2.25rem;
+}
+.how-it-works img{
+  max-width: 100%;
+  display: block;
+  border-radius: 8px; 
+}
+.hilang{
+   display:none;
+}

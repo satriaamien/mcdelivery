@@ -1,0 +1,115 @@
+.global-footer {
+    min-width: 990px;
+    font-family:sans-serif;
+}
+.footer-nav{
+	background-color: #353535;
+	padding-top: 40px;
+    padding-bottom: 40px;
+     background-image: linear-gradient(#252525,#353535 35%); 
+}
+.footer-nav .container {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.container {
+    min-width: 990px;
+    max-width: 1170px;
+}
+.container, .container-fluid {
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.colsize-5-row, .row {
+    margin-left: -15px;
+    margin-right: -15px;
+}
+.col-xs-3, .footer-nav .column, .selected-meals .header-column {
+    width: 25%;
+}
+.footer-nav h3 {
+    color: #fff;
+}
+.global-footer .list-group-title {
+    margin: 0 0 20px;
+}
+h3 {
+    font-size: 24px;
+    line-height: 1.1;
+}
+.footer-disclaimer {
+    background-color: #1d1d1d;
+    color: #b4b4b4;
+    font-family: Helvetica,Arial,sans-serif;
+}
+
+.footer-nav .menu-item-target {
+    font-size: 16px;
+    font-size: 1rem;
+    color: #727272;
+    display: block;
+    margin-bottom: 10px;
+}
+.footer-nav .menu-item-target:hover {
+    color: #989898;
+}
+
+/*Lgin*/
+/*.country-62 .modal-login .modal-header .logo {
+    background: url(../img/logo_bg.jpg) 
+    center center no-repeat;
+}*/
+
+
+
+/*img{
+    max-width: 100%;
+}
+img {
+    border: 0;
+    vertical-align: middle;
+}
+*/
+/**, :after, :before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}*/
+.akun a{
+    color:#999;
+}
+.panel-footer {
+    padding: 10px 20px;
+    background-color: #f5f5f5;
+    border-top: 1px solid #ddd;
+}
+
+.product-controls{
+    align-items: right;
+    margin-left: 20px;
+}
+
+.btn-warning {
+    color: #212529;
+    background-color: #ffc107;
+    margin-left: 100px;
+}
+
+.tab-content>.active {
+    display: block;
+    color: black;
+}
+
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    color: #495057;
+    background-color: #fff;
+}
+.btn-red {
+    color: #fff;
+    border-color: transparent;
+    background-image: linear-gradient(#ec4c34,#d21920);
+    background-image: linear-gradient(#ec4c34,#d21920);
+    background-image: linear-gradient(#ec4c34,#d21920);
+}

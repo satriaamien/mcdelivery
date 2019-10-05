@@ -1,0 +1,31 @@
+.btn-danger{
+  padding:10px;
+}
+.action-forgot-password a{
+	color: #3d3d3d;
+	font-size: 16px;
+}
+.action-forgot-password{
+	text-align: center;
+}
+.guest-order-note{
+	color: black;
+	font-size: 12px;
+}
+.guest-order-header{
+	font-size: 18px;
+}
+.guest-order-note, .guest-order-header{
+	text-align: center;
+	color: #3d3d3d;
+	
+}
+.guest-order-note{
+	margin-bottom: 20px;
+}
+.frament-new-user{
+	margin-bottom: 20px;
+}
+.submitnya{
+	margin-top: 20px;
+}

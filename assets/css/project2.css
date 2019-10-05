@@ -1,0 +1,159 @@
+body {
+  font-family: 'Oswald', sans-serif !important;
+  margin: 0;
+  padding: 0;
+  line-height: 2;
+  background-color: lightgrey;
+}
+
+.active {
+    color: yellow;
+}
+
+.wrap {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.global-head .subheader {
+  padding-top: 10px;
+  padding-bottom: 5px;
+}
+
+.container {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.subheader {
+  box-sizing: border-box;
+  padding-bottom: 5px;
+  padding-top: 5px;
+}
+
+.subheaderleft, .subheaderright {
+  display: inline-block;
+}
+
+.subheaderleft {
+  margin-left: -25px;
+}
+
+.leftheader1 a, .leftheader2 a, .rightheader1 a, .rightheader2 a {
+  text-decoration: none;
+  font-size: 12px;
+}
+
+.leftheader1 a, .rightheader1 a, .rightheader2 a {
+  color: #999;
+}
+
+.leftheader1 a:hover, .rightheader1 a:hover, .rightheader2 a:hover {
+  color: #333;
+}
+
+.leftheader2 a {
+  color: #333;
+}
+
+.leftheader>li+li:before, .rightheader>li+li:before {
+  content: "|";
+  color: #999;
+  margin-right: 12px;
+  margin-left: 12px;
+}
+
+.leftheader li, .rightheader li {
+  display: inline-block;
+}
+
+.leftheader1>li, .leftheader2>li {
+  color: black;
+}
+
+.subheaderright {
+  float: right;
+  margin-right: 15px;
+}
+
+.navbar {
+  background-color: #3d3d3d;
+  border-radius: 6px;
+  padding: 0;
+}
+
+.navbar-header {
+  float: left;
+  position: relative;
+}
+
+.logo-mcd {
+  background-color: #E21A1A;
+  float: left;
+  border: none;
+  border-radius: 6px;
+  padding: 7px 20px;
+  background: url(../logo/logo_bg.jpg)center center no-repeat;
+}
+
+.nav-item a {
+  position: relative;
+  line-height: 10px;
+  font-family: sans-serif;
+  color: #fff;
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+.nav-item a:hover {
+  color: #AFA3A3;
+}
+
+.nav-link:focus {
+  color: #ffc423;
+}
+
+.dropdown-menu {
+  background-color: #3d3d3d;
+  position: relative;
+  margin-top: 4px;
+}
+
+.dropdown-item {
+  font-family: 'Oswald', sans-serif !important;
+  padding: 10px 20px;
+}
+
+.dropdown-menu a {
+  font-family: "Flama Condensed Medium";
+  font-size: 1.125rem;
+}
+
+.navbar-nav {
+  margin-left: 10px;
+}
+
+.nav-item {
+  position: relative;
+  padding: 17px 25px;
+}
+
+.nav-item a {}
+
+.nav>li, nav>li>a {
+  position: relative;
+  display: block;
+}
+
+.garis {
+  border-right: 1px solid #222;
+}
+
+.icon {
+  color: #7f7f7f;
+  margin-right: 10px;
+}
+
+
+
+/* batas navbar */

@@ -1,0 +1,21 @@
+.page-header{
+	margin: 20px;
+	margin-bottom: 30px;
+	text-align: center;
+	padding: 10px 0 20px;	
+	border-bottom: 1px dashed #a1a1a1;
+    font-family: 'Oswald', sans-serif !important;
+}
+.page-content{
+	font-family: 'Oswald', sans-serif !important;
+	margin-left: 50px;
+}
+.page-content h2{
+	color: #f3ad12;
+}
+.page-content p{
+	color: grey;
+}
+.petunjuk {
+	margin-bottom: 50px;
+}
